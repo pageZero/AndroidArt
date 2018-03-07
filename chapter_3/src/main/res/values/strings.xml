@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android Art</string>
+    <string name="location_params">View的位置参数获取</string>
+</resources>
