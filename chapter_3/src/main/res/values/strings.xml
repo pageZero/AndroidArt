@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Android Art</string>
     <string name="location_params">View的位置参数获取</string>
+    <string name="disable_btn">不能点击的按钮</string>
+    <string name="normal_textview">一个普通的TextView,CLICKABLE=false,点击一下看看</string>
+    <string name="button_summary">点击的button的时候，onTouch和onClick都没有回调，但是，Activity#onTouchEvent()也没有回调，说明：虽然Button是disable，但它还是消费了点击事件，使得事件没有交给上层View处理。</string>
+    <string name="textview_summary">点击的一个普通的TextView的时候，它默认不消费事件，这时事件传递给上层处理，最终回调了Activity#onTouchEvent().</string>
 </resources>

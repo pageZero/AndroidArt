@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void initViews() {
         titleTv = findViewById(R.id.title_tv);
-        LinearLayout linearLayout
     }
 
     /*
